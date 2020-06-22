@@ -1,6 +1,5 @@
 import React, { useState }from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Button } from 'react-native-web'
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
   const [outputText, setOutputText] = useState('Open up App.js to start working on your app!')
